@@ -979,7 +979,7 @@ interface ReservationDefinition {
     ticksToEnd: number;
 }
 interface StoreDefinition {
-    [resource: string]: number;
+    [resource: string]: number | undefined;
     energy?: number;
     power?: number;
 }
